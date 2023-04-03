@@ -21,7 +21,7 @@ func main() {
 
 func greeter(s int) {
 	for i := 0; i < 10; i++ {
-		time.Sleep(5 * time.Second)
+		time.Sleep(2 * time.Second)
 		mu.Lock()
 		fmt.Println("I am ", s, " before  a = ", a)
 		a++
