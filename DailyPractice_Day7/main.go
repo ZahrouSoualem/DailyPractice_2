@@ -23,9 +23,9 @@ func main() {
 	fmt.Println(table[:n])
 	fmt.Println(table[n:])
 
-	max, min := MaxMin(&table)
+	/* max, min := MaxMin(&table)
 	fmt.Println("Max = ", max)
-	fmt.Println("Min = ", min)
+	fmt.Println("Min = ", min) */
 }
 
 func MaxMin(table *[]int) (int, int) {
