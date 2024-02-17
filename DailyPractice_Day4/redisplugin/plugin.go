@@ -1,4 +1,4 @@
-package main
+package redisplug
 
 // docker run -d -p 6379:6379 --name redis-db redis
 
@@ -13,7 +13,6 @@ func NewClient() *Client {
 }
 
 func initClient() *Client {
-
 
 	return NewClient()
 }
